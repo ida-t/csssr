@@ -35,7 +35,7 @@ export default () => (
     <Router history={browserHistory}>
       <Route path="/csssr/" component={Page}>
         <IndexRoute component={Home} />
-        <Route path="/repos/:owner/:repo/issues/:number" component={IssuePage} />
+        <Route path="repos/:owner/:repo/issues/:number" component={IssuePage} />
         <Route path="*" component={NotFound} title="404: Page not found" />
       </Route>
     </Router>
