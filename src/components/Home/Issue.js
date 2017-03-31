@@ -23,7 +23,7 @@ export default class Issue extends Component {
           <img src={user.avatar_url} alt={user.login} className={styles.img} />
           <div>{user.login}</div>
         </a>
-        <Link to={`/repos/${owner}/${repo}/issues/${number}`} className={styles.issue}>
+        <Link to={`/csssr/repos/${owner}/${repo}/issues/${number}`} className={styles.issue}>
           <div>#{number} {title}</div>
           <div>{created_at.substr(0, 10)}</div>
         </Link>
