@@ -12,6 +12,8 @@ import IssuePage from './components/IssuePage/IssuePage';
 import sagas from './sagas';
 import rootReducer from './reducers/rootReducer';
 
+import './index.styl';
+
 const sagaMiddleware = createSagaMiddleware();
 
 const middleware = ((middlewares) => {
